@@ -8,6 +8,5 @@ if (typeof userInput === 'string') {
 }
 function generateError(message, code) {
     throw { message: message, errorCode: code };
-    // while (true) {}
 }
 const result = generateError('An error occured!', 500);
